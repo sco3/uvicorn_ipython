@@ -1,0 +1,18 @@
+[project]
+name = "uvicorn-ipython"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=24.10.0",
+    "fastapi>=0.115.5",
+    "guppy3>=3.1.4.post1",
+    "httpx>=0.28.0",
+    "ipython>=8.30.0",
+    "isort>=5.13.2",
+    "remote-pdb>=2.1.0",
+    "rpdb>=0.1.6",
+    "ruff>=0.8.1",
+    "uvicorn>=0.32.1",
+]
